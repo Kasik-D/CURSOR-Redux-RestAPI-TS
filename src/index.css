@@ -1,0 +1,28 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+
+  /* colors */
+  --first-color: #4a507d;
+  --second-color: #95a1fc;
+  --third-color: #e1e4fd;
+  --fourth-color: #6f717d;
+  --fifth-color: #7780c9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}

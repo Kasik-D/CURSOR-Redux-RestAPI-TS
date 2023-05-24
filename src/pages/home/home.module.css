@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  flex: 1;
+  /* height: 100%;
+  width: 100%; */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}

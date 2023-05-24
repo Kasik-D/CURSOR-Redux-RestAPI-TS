@@ -1,0 +1,5 @@
+.root {
+  min-height: 170px;
+  width: 100%;
+  background-color: var(--first-color);
+}

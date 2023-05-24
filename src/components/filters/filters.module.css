@@ -1,0 +1,16 @@
+.root {
+  width: 100%;
+  margin: 15px 0px 25px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.select__container {
+  min-width: 250px;
+  margin-right: 10px;
+}

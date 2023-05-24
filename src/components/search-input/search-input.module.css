@@ -1,0 +1,26 @@
+.root {
+  width: 100%;
+  padding: 15px 0px 25px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 35%;
+  border-radius: 20px;
+  border-width: 0;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.img {
+  cursor: pointer;
+}
