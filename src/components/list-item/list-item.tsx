@@ -1,4 +1,5 @@
-import { ListItem as ListItemProps } from '@/api/api-types';
+import { ListItem as ListItemProps } from 'api/api-types';
+
 import styled from './list-item.module.css';
 
 export const ListItem = ({ image, title }: ListItemProps) => {

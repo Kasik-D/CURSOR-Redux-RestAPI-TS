@@ -1,6 +1,6 @@
 import { ICONS } from 'constants/icons';
-import styled from './search-input.module.css';
 
+import styled from './search-input.module.css';
 import { useSearchInput } from './search-input.state';
 
 export const SearchInput = () => {

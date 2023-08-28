@@ -1,11 +1,10 @@
 /* eslint-disable no-unused-vars */
-import { fetchListItems, isLoadingListItemsSelector, listItemsSelector } from '@/store/slices/home.slicer';
-import { useAppDispatch } from '@/store/store';
+import { searchParams as SP, searchParamsType } from 'constants/search-params';
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { useSearchParams } from 'react-router-dom';
-
-import { searchParams as SP, searchParamsType } from '@/constants/search-params';
+import { fetchListItems, isLoadingListItemsSelector, listItemsSelector } from 'store/slices/home.slicer';
+import { useAppDispatch } from 'store/store';
 
 export const useHomeState = () => {
   const dispatch = useAppDispatch();

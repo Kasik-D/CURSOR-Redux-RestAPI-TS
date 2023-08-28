@@ -1,8 +1,8 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
+import { useDispatch } from 'react-redux';
 
 import appReducer from './slices/app.slicer';
 import homeReducer from './slices/home.slicer';
-import { useDispatch } from 'react-redux';
 
 const rootReducer = combineReducers({ app: appReducer, home: homeReducer });
 

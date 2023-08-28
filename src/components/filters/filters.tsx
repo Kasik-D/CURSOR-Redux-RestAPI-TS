@@ -1,9 +1,9 @@
+import { optionsSortBy, optionsSortOrder } from 'constants/constants';
 import Select from 'react-select';
-import { useFilters } from './filters.state';
 import makeAnimated from 'react-select/animated';
 
 import styled from './filters.module.css';
-import { optionsSortBy, optionsSortOrder } from '@/constants/constants';
+import { useFilters } from './filters.state';
 
 const animatedComponents = makeAnimated();
 

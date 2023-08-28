@@ -1,9 +1,9 @@
-import { genresSelector } from '@/store/slices/home.slicer';
+import { searchParams as SP } from 'constants/search-params';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useSearchParams } from 'react-router-dom';
 import type { ActionMeta, MultiValue, SingleValue } from 'react-select';
-import { searchParams as SP } from '@/constants/search-params';
+import { genresSelector } from 'store/slices/home.slicer';
 
 type MyOption = { label: string; value: string };
 

@@ -20,12 +20,14 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*", "./dist/*", ""],
+      "*": ["./src/*", "./dist/*", ""],
+      "api/*": ["./src/api/*"],
+      "assets/*": ["./src/assets/*"],
       "components/*": ["./src/components/*"],
+      "helpers/*": ["./src/helpers/*"],
       "hooks/*": ["./src/hooks/*"],
       "pages/*": ["./src/pages/*"],
       "store/*": ["./src/store/*"],
-      "assets/*": ["./src/assets/*"],
       "navigation/*": ["src/navigation/*"],
       "constants/*": ["src/constants/*"]
     }

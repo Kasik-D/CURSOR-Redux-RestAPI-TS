@@ -1,8 +1,8 @@
-import { useHomeState } from './home.state';
+import { ListItem } from 'components/list-item/list-item';
+import { Loader } from 'components/loader/loader';
 
 import styled from './home.module.css';
-import { Loader } from '@/components/loader/loader';
-import { ListItem } from '@/components/list-item/list-item';
+import { useHomeState } from './home.state';
 
 export const Home = () => {
   const { isLoadingListItems, listItems } = useHomeState();

@@ -1,7 +1,8 @@
 import { ReactNode } from 'react';
-import styled from './header.module.css';
-import { SearchInput } from '../search-input/search-input';
+
 import { Filters } from '../filters/filters';
+import { SearchInput } from '../search-input/search-input';
+import styled from './header.module.css';
 
 type HeaderContainerType = {
   children?: ReactNode | JSX.Element;

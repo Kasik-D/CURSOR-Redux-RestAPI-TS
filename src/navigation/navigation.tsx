@@ -1,9 +1,8 @@
-import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
-
 import { AnimeDetails, Home, NotFoundPage, Root } from 'pages/index';
-// import { fetchGenres } from '@/store/slices/home.slicer';
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
+// import { fetchGenres } from 'store/slices/home.slicer';
 
-// import { useAppDispatch } from '@/store/store';
+// import { useAppDispatch } from 'store/store';
 
 export const RoutersProvider = () => {
   // const dispatch = useAppDispatch();

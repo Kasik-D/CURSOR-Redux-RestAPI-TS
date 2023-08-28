@@ -1,13 +1,11 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable @typescript-eslint/no-empty-function */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import { Genres, ListItems } from '@/api/api-types';
-import { getGenres, getListItems } from '@/api/requests';
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { setError, setIsLoading } from './app.slicer';
-import { isString } from '@/helpers/helpers';
+import { Genres, ListItems } from 'api/api-types';
+import { getGenres, getListItems } from 'api/requests';
+import { searchParamsType } from 'constants/search-params';
+import { isString } from 'helpers/helpers';
+
 import { RootState } from '../store';
-import { searchParamsType } from '@/constants/search-params';
+import { setError, setIsLoading } from './app.slicer';
 
 type InitialState = {
   genres: Genres;

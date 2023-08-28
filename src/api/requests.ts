@@ -1,7 +1,8 @@
+import { searchParamsType } from 'constants/search-params';
+import { ErrorHandler } from 'helpers/helpers';
+
 import axios from './api';
-import { ErrorHandler } from '@/helpers/helpers';
 import { AxiosListItems, Genres } from './api-types';
-import { searchParamsType } from '@/constants/search-params';
 
 export const getGenres = async () => {
   try {
